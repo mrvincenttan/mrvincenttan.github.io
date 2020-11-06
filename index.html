@@ -13,8 +13,12 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-
+    <script src="script.js" defer></script>
+    <!-- <style>
+      table, th, td {
+        border: 1px solid black;
+      }
+      </style> -->
   </head>
   <body>
     <header>
@@ -56,15 +60,65 @@
       height="200"
       src="https://media.giphy.com/media/26uT2NI7kej7p9fLW/giphy.gif"
     />
+<!-- adding canvas below here -->
+<canvas id=c></canvas>
+<canvas id=bg></canvas>
+
     <h1>My name is Vincent Tan.</h1>
     <p>
       I'm cool. A programmer wannabe.
     </p>
+    <p> Testing</p>
+ 
     <p>
       My email is mrvincenttan@gmail.com.
     </p>
+    <h1>
+      Please fill in the information below:
+  </h1>
+  <form action="/action_page.php" method="get">
+      <label for="fname" id="nameid">Name:</label>
+      <input type="text" id="myname" name="myname"><br><br>
+      <label for="myaddress" id="addressid">Address:</label>
+      <input type="text" id="myaddress" name="myaddress"><br><br>
+      <label for="myphone" id="phoneid">Phone:</label>
+      <input type="number" id="myphone" name="myphone"><br><br>
+      <label for="myemail" id="emailid">Email:</label>
+      <input type="text" id="myemail" name="myemail"><br><br>
+      <label for="mybio">Short Bio:</label>
+      <input type="text" id="mybio" name="mybio"><br><br>
+      This is a checkbox which is also an input type.
+      <input type="checkbox">
 
+      <p class="animate__animated animate__bounce">Photo:</p>
+      <input type="file">
+      <br>
+      <br>
+      <input type="reset" value="reset">
+      <input type="submit" value="send" class="animate__animated animate__bounce">
+      <!-- alternative is to use button type but correct is to use input -->
+    </form>
+    <table style="width:50%">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th> 
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td> 
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td> 
+        <td>94</td>
+      </tr>
+    </table>
+    <p>this is my file</p>
     <p>This is my portfolio: <a href="a/portfolio.html">About Me</a>!</p>
+    <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+    <iframe src="https://scottcate.com/vstricks/017-keyboard-shortcut-to-comment-and-uncomment-code/" title="Search"></iframe>
     <!-- a/ means to look into the folder called a -->
     
     <!-- include the Glitch button to show what the webpage is about and
