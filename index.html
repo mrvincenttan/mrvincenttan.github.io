@@ -8,6 +8,34 @@
    <meta name="apple-mobile-web-app-capable" content="yes">
    <meta name="mobile-web-app-capable" content="yes">
 <style>
+  * {
+  box-sizing:border-box;
+}
+
+.left {
+  background-color:#2196F3;
+  padding:20px;
+  float:left;
+  width:20%; /* The width is 20%, by default */
+}
+
+.main {
+  background-color:#f1f1f1;
+  padding:20px;
+  float:left;
+  width:60%; /* The width is 60%, by default */
+}
+
+.right {
+  background-color:#4CAF50;
+  padding:20px;
+  float:left;
+  width:20%; /* The width is 20%, by default */
+}
+  /* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+ .left  , .main, .right {width:100%;}
+}
    .flex-container{
       display:flex;
       flex-wrap: wrap;
@@ -50,11 +78,11 @@
         </ul>
     </div>
 <div class="flex-container">
-  <div><img src="http://www.wallpapers76.com/photo/7551/Cute-Cats-063.jpg" height=100px width=100px></div>
-  <div><img src="https://imgix.bustle.com/uploads/shutterstock/2020/5/5/5c440970-675d-4a9d-9525-9659d7314105-shutterstock-1470598907.jpg" height=100px width=100px ></div>
-  <div><img src="https://tse1.mm.bing.net/th?id=OIP.xTTIrV7w-Rv54gAcFe_H7wHaE8&pid=Api&P=0&w=235&h=157" height=100px width=100px></div>
-  <div>4</div>
-  <div>5</div>
+  <div>1<img src="http://www.wallpapers76.com/photo/7551/Cute-Cats-063.jpg" height=100px width=100px></div>
+  <div>2<img src="https://imgix.bustle.com/uploads/shutterstock/2020/5/5/5c440970-675d-4a9d-9525-9659d7314105-shutterstock-1470598907.jpg" height=100px width=100px ></div>
+  <div>3<img src="https://tse1.mm.bing.net/th?id=OIP.xTTIrV7w-Rv54gAcFe_H7wHaE8&pid=Api&P=0&w=235&h=157" height=100px width=100px></div>
+  <div>4<img src="https://tse1.mm.bing.net/th?id=OIP.1RD8NOEEDnvnSSt-QioXYgHaKo&pid=Api&rs=1&c=1&qlt=95&w=80&h=115" height=100px width=100px></div>
+  <div>5<img src="https://tse1.mm.bing.net/th?id=OIP.R3IAG0Z7SAzTV56Xuvs1LwHaFj&pid=Api&rs=1&c=1&qlt=95&w=161&h=120" height=100px width=100px></div>
   <div>6</div>
   <div>7</div>
   <div>8</div>
@@ -63,6 +91,21 @@
   <div>11</div>
   <div>12</div>
 </div>
-    
+<h2>Media Queries</h2>
+
+<p>Resize the browser window, up and down around 800px wide.</p>
+
+<div class="left">
+  <p>Left</p>
+</div>
+
+<div class="main">
+  <p>Main Content</p>
+</div>
+
+<div class="right">
+  <p>Right</p>
+</div>
+
 </body>
 </html>
