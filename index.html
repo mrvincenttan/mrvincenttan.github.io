@@ -1,110 +1,84 @@
 <!doctype=HTML>
-<html lang = "en">
+<html lang="en">
 <head>
-    <title>Vincent</title>
-    <meta charset="utf-8">
-   <!-- <meta name="viewport" content="width=screen-width"> -->
-   <meta name="viewport" content="width=screen-width inital-scale=1">
-   <meta name="apple-mobile-web-app-capable" content="yes">
-   <meta name="mobile-web-app-capable" content="yes">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #text {
+      font-size: 24px;
+    }
+    @media only screen and (min-device-width : 20px) and (max-device-width : 480px) {
+      #text {
+        font-size: 18px;
+      }
+    }
+    @media only screen and (min-device-width : 481px) and (max-device-width : 960px) {
+      #text {
+        font-size: 40px;
+      }
+    }
+    <!DOCTYPE html>
+<html>
+<head>
 <style>
-  * {
-  box-sizing:border-box;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  overflow: hidden;
 }
 
-.left {
-  background-color:#2196F3;
-  padding:20px;
-  float:left;
-  width:20%; /* The width is 20%, by default */
+li {
+  float: right;
 }
 
-.main {
-  background-color:#f1f1f1;
-  padding:20px;
-  float:left;
-  width:60%; /* The width is 60%, by default */
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
 }
 
-.right {
-  background-color:#4CAF50;
-  padding:20px;
-  float:left;
-  width:20%; /* The width is 20%, by default */
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
-  /* Use a media query to add a break point at 800px: */
-@media screen and (max-width:800px) {
- .left  , .main, .right {width:100%;}
+
+.button2 {background-color: #008CBA;} /* Blue */
+#example1 {
+  background-image: url(ice.jpg), url(ice.jpg);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
 }
-   .flex-container{
-      display:flex;
-      flex-wrap: wrap;
-      background-color:dodgerblue;
-   }
-   .flex-container > div {
-    width:100px;
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-}
+p.solid {border-style: solid;}
 </style>
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <!-- actual Bootstrap 4 javascript header here, to use in future
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    -->
 </head>
-
 <body>
-   <!-- <div class="container"> responsive FIXED width container-->
-        <div class="container-fluid"> <!-- use this <div> if want responsive FULL width container -->
-        <h1>
-          Vincent's Blog page.
-        </h1>
-         <a href="https://www.ofnoah.com/post/erectile-dysfunction-in-young-men?fbclid=IwAR1NtgBDCMS5aQ2_lvph8xNv6aKtZrBG31NzZbp3t4c3Gp1jgAHSTQhr6l0"><img src="cactus.jpg" width="200px" height="200px" alt="My Cactus"></a>
-      
-        <!-- <a href="https://www.bing.com"><img src="victoriasecret.png" width="200px" height="200px" alt="Victoria Secret"></a>
-        <p>About myself.</p> -->
-        <P>This is my big cactus.</P>
-        <p>Touch me for my favourite advertisement! testing testing testing testing testing testing testing testing</p><br>
-        <p>Please choose:</p>
-        <ul>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Me</li>
-        </ul>
-    </div>
-<div class="flex-container">
-  <div>1<img src="http://www.wallpapers76.com/photo/7551/Cute-Cats-063.jpg" height=100px width=100px></div>
-  <div>2<img src="https://imgix.bustle.com/uploads/shutterstock/2020/5/5/5c440970-675d-4a9d-9525-9659d7314105-shutterstock-1470598907.jpg" height=100px width=100px ></div>
-  <div>3<img src="https://tse1.mm.bing.net/th?id=OIP.xTTIrV7w-Rv54gAcFe_H7wHaE8&pid=Api&P=0&w=235&h=157" height=100px width=100px></div>
-  <div>4<img src="https://tse1.mm.bing.net/th?id=OIP.1RD8NOEEDnvnSSt-QioXYgHaKo&pid=Api&rs=1&c=1&qlt=95&w=80&h=115" height=100px width=100px></div>
-  <div>5<img src="https://tse1.mm.bing.net/th?id=OIP.R3IAG0Z7SAzTV56Xuvs1LwHaFj&pid=Api&rs=1&c=1&qlt=95&w=161&h=120" height=100px width=100px></div>
-  <div>6</div>
-  <div>7</div>
-  <div>8</div>
-  <div>9</div>
-  <div>10</div>
-  <div>11</div>
-  <div>12</div>
-</div>
-<h2>Media Queries</h2>
-
-<p>Resize the browser window, up and down around 800px wide.</p>
-
-<div class="left">
-  <p>Left</p>
-</div>
-
-<div class="main">
-  <p>Main Content</p>
-</div>
-
-<div class="right">
-  <p>Right</p>
+<p class="solid"> Welcome</p>
+<img src="tomatoinwater.jpg" alt=Logo style="width:100px;height:100px;">
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<div id="example1">
+    <br>
+    <br>
+<h1>
+    Headlines here
+</h1>
+<button class="button">red</button>
+<button class="button button2">Blue</button>
 </div>
 
 </body>
