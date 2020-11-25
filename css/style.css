@@ -1,0 +1,171 @@
+.navbar-custom {
+  height: 64px;
+  background-color: white;
+}
+
+.custom {
+  font-size: 18px;
+}
+
+.first-section {
+  background-color: lightgray;
+}
+
+
+#left {
+  width: 60%;
+  padding-left: 24px;
+}
+
+#right {
+  width: 40%;
+  padding: 160px 24px;
+}
+
+.banner-image {
+  padding: 32px 24px 32px 24px
+}
+
+.banner-button {
+  font-size: 15px;
+  color: white;
+  background-color:#555555;
+  width: 280px;
+  height: 30px;
+}
+
+.banner2-image {
+  padding: 32px 24px 32px 24px;
+}
+
+#left2 {
+  width: 60%;
+  padding-left: 24px;
+  padding-bottom: 32px;
+}
+
+#right2 {
+  width:40%
+}
+
+.second-section-wordings {
+  padding-left: 24px;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1;
+}
+
+.card {
+  height: auto;
+}
+
+.card-img {
+  max-width: 35%;
+  height: auto;
+  margin: 16px 16px;
+}
+
+.sec2 {
+  width: 65%;
+}
+
+.sec2-inside {
+  padding: 16px 0;
+}
+
+#right2 {
+  padding: 24px;
+}
+
+.guest-lecture {
+  background-color: lightgray;
+}
+
+.card-title {
+  font-size: 25px;
+}
+
+.card-text {
+  font-size: 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.third-section {
+  background-color: lightgray;
+  padding-bottom: 40px;
+}
+
+.third-section-header {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.card-group {
+  margin-left: 72px;
+  margin-right: 72px;
+}
+
+.sec3 {
+  margin: 32px;
+}
+
+.sec3midHeadings{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.fourth-section-header {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.left4 {
+  width: 60%;
+  padding-left: 48px;
+}
+
+.right4{
+  width: 40%;
+  padding-left: 24px;
+  padding-right: 5px;
+}
+
+.thesis-fisma {
+  background-color: lightgray;
+}
+
+.section4LeftHeader {
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.section4LeftText {
+  padding-top: 0%;
+  padding-bottom: 32px;
+}
+
+.sec4 {
+  padding: 30px 0;
+}
+
+.footer {
+  background-color: lightgray;
+}
+
+.footer-text-left {
+  padding-left: 24px;
+  padding-top: 16px;
+}
+
+.footer-text-right {
+  float: right;
+  align-items: ;
+  padding-top: 16px;
+}
